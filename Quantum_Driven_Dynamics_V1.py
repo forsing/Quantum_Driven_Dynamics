@@ -76,9 +76,9 @@ set_num_threads(min(4, get_num_threads()))
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4724_k93.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4724_k93_loto_2984.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4724_k93_loto_plus_1740.csv"),
+    Path("/data/loto7_4724_k93.csv"),
+    Path("/data/loto7_4724_k93_loto_2984.csv"),
+    Path("/data/loto7_4724_k93_loto_plus_1740.csv"),
 )
 
 
@@ -998,7 +998,7 @@ Ucenje za test: logisticka modulacija
 Test NLL: 16.550829 | logisticka modulacija
 Zavrsno ucenje na svim istorijskim prelazima: fazni udari
 NEXT: deterministicka pretraga zajednicke amplitude.
-NEXT: [21, 26, 29, 32, 34, 36, 39]
+NEXT: [21, x, 29, y, 34, z, 39]
 
 
 
@@ -1021,7 +1021,7 @@ Ucenje za test: logisticka modulacija
 Test NLL: 16.550701 | logisticka modulacija
 Zavrsno ucenje na svim istorijskim prelazima: memorija
 NEXT: deterministicka pretraga zajednicke amplitude.
-NEXT: [3, 9, 13, 16, 23, 25, 28]
+NEXT: [3, x, 13, y, 23, z, 28]
 
 
 
@@ -1044,7 +1044,7 @@ Ucenje za test: logisticka modulacija
 Test NLL: 16.554904 | logisticka modulacija
 Zavrsno ucenje na svim istorijskim prelazima: memorija
 NEXT: deterministicka pretraga zajednicke amplitude.
-NEXT: [11, 13, 19, 20, 21, 25, 28]
+NEXT: [11, x, 19, y, 21, z, 28]
 """
 
 
